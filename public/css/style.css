@@ -1,0 +1,46 @@
+* {box-sizing: border-box;}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FFD90F;
+    font-weight: 400;
+}
+/* header */
+.header-h1 {
+font-family: 'Rock Salt', cursive;
+color: #FFF;
+}
+
+.top-nav-link {
+    text-decoration: none;
+    color: #FFF;
+}
+
+/* home */
+.home-main {
+    margin-top: 15px;
+}
+
+.home-text {
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.homer {
+    color: #000;
+    font-weight: 500;
+}
+
+.homer-pic {
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.character {
+    color: #FFF;
+}

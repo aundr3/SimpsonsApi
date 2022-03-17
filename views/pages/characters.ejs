@@ -1,0 +1,12 @@
+<%- include('../partials/header'); %> 
+
+<main class="main main-characters">
+    <h2 class="main-h2">
+        <%= name %>
+    </h2>
+    <% data.forEach(item=> { %>
+            <p class="character text-center"><%= item.name %> </p>
+        <% }) %>
+</main>
+
+<%- include('../partials/footer'); %> 
